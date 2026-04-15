@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "onstock_tmp",
-    "slug": "onstock_tmp",
+    "name": "Onstock",
+    "slug": "onstock",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,16 +10,19 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#080c14"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "me.onstock.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#080c14"
       },
+      "package": "me.onstock.app",
+      "permissions": ["android.permission.INTERNET"],
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
